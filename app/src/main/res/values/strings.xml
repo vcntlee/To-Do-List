@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">To-Doer</string>
+    <string-array name="level_spinner">
+        <item>Low</item>
+        <item>Mid</item>
+        <item>High</item>
+    </string-array>
+</resources>

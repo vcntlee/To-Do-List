@@ -11,6 +11,8 @@ It is a To-Do app that allows for:
 Here's a quick tour of the app: 
 <img src='http://imgur.com/sQBXJbQ' title='App tour' width='' alt='App tour' />
 
+![alt tag](http://imgur.com/sQBXJbQ)
+
 Here's a list of the requirements:
 - user can add and remove items
 - user can edit

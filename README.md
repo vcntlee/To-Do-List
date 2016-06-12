@@ -9,17 +9,16 @@ It is a To-Do app that allows for:
 - delete a task
 
 Here's a quick tour of the app: 
-<img src='http://imgur.com/sQBXJbQ' title='App tour' width='' alt='App tour' />
 
 ![alt tag](https://raw.githubusercontent.com/vcntlee/To-Do-List/master/todoer.gif)
 
 
-Here's a list of the requirements:
+#### Here's a list of the requirements:
 - user can add and remove items
 - user can edit
 - user's data persists
 
-Here's a list of some additional features:
+#### Here's a list of some additional features:
 - improved UI
 - used SQLite for data persistence
 - task completed and task deletion are portrayed differently:

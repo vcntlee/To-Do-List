@@ -2,7 +2,7 @@
 
 This is my Hello World Android App. 
 
-It is a To-Do app that allows for:
+#### It is a To-Do app that allows for:
 - addition of a task
 - update an existing task
 - check out a task

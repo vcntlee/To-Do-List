@@ -73,4 +73,23 @@ public class Task {
     public void setNotes(String notes) {
         mNotes = notes;
     }
+
+    public String getLevelString() {
+        if (mLevel == 0) {
+            return "Low";
+        }
+        else if (mLevel == 1) {
+            return "Mid";
+        }
+        else {
+            return "High";
+        }
+    }
+    public String getStatusString() {
+        if (mStatus == 1) {
+            return "done!";
+        } else {
+            return "not done";
+        }
+    }
 }

@@ -53,8 +53,8 @@ public class TaskDetailsFragment extends Fragment {
         taskName.setText(mTarget.getName());
         taskDate.setText(mTarget.getDate());
         taskNotes.setText(mTarget.getNotes());
-        taskLevel.setText(mTarget.getLevel()+"");
-        taskStatus.setText(mTarget.getStatus()+"");
+        taskLevel.setText(mTarget.getLevelString());
+        taskStatus.setText(mTarget.getStatusString());
 
 
         return view;

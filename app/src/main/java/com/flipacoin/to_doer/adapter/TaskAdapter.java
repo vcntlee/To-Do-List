@@ -59,11 +59,11 @@ public class TaskAdapter extends BaseAdapter {
 
         Task task = mTasks.get(position);
         holder.name.setText(task.getName());
-        if (task.getLevel() == 0) {
+        if (task.getLevelString().equals("Low")) {
             holder.level.setText("Low");
             holder.level.setTextColor(Color.parseColor("#448AFF"));
         }
-        else if(task.getLevel() == 1){
+        else if(task.getLevelString().equals("Mid")){
             holder.level.setText("Mid");
             holder.level.setTextColor(Color.parseColor("#AFB42B"));
 
